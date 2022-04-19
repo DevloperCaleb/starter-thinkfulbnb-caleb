@@ -9,6 +9,7 @@ h2 {
   font-weight: 400;
   margin: 0 10px 10px 10px;
   text-align: center;
+  padding-top: 10px;
 }
 
 h3 {
@@ -30,13 +31,10 @@ main img {
   width: 100%;
 }
 
-
-
 /* --- Form --- */
 form {
   margin: 0px 20px 20px 20px;
 }
-
 
 /* ---  Groups & Items --- */
 
@@ -71,7 +69,7 @@ header {
 
 header nav {
   display: flex;
-justify-content: center;
+  justify-content: center;
 }
 
 header nav ul {
@@ -141,8 +139,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 480px){
-
+@media all and (min-width: 480px) {
   /* --- header ---*/
   header {
     display: flex;
@@ -174,7 +171,6 @@ footer p {
     width: 10%;
   }
 
-
   .group {
     display: flex;
     flex-direction: row;
@@ -182,9 +178,8 @@ footer p {
     flex-flow: row nowrap;
     align-items: center;
   }
-  
-  .item-double{
+
+  .item-double {
     padding: 20px;
   }
-
 }
